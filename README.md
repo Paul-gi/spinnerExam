@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id)
             {
-                String selectedClass = parent.getItemAtPosition(position).toString();
+                selectedClass = parent.getItemAtPosition(position).toString();
                 switch (selectedClass)
                 {
                     case "Class 1":
